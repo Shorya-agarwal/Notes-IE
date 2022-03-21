@@ -19,12 +19,12 @@ body{
 }
 .notes-page{ 
    width: 100%; 
-  min-height: 100vh;
+  min-height: 90vh;
   color: whitesmoke;
 }
 .notes-page header{
   max-width: 1920px;
-  min-height: 100px;
+  min-height: 80px;
   overflow: hidden;
   margin: 0 auto;
   display: flex;
@@ -44,6 +44,9 @@ a{
 .headnav{
   background-color: black;
 }
+/* .foot{
+
+} */
 .notes-page header ul li{
   list-style: none;
   display: inline-block;
@@ -174,7 +177,7 @@ a{
 .login-page{
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
 
 }
 .heading{

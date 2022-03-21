@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import axios from 'axios'
 import Login from './components/Login'
 import Notes from './components/Notes'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         ? <Notes setIsLogin={setIsLogin} /> 
         : <Login setIsLogin={setIsLogin} />
       }
+      <Footer/>
     </div>
   );
 }

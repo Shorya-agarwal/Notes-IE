@@ -53,8 +53,8 @@ export default function Login({ setIsLogin }) {
 
     return (
         <section className="login-page">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-center">
-                <div className="container justify-content-md-center"> <h1 className="text-center my-4 heading">Welcome to INotes. Save your Notes On the Cloud</h1></div>
+            <nav  className="navbar navbar-expand-lg navbar-dark bg-dark text-center"  style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
+                <div className="container justify-content-md-center"> <h1 className="text-center my-2 heading">Welcome to INotes, Save your Notes On the Cloud</h1></div>
            </nav>
             <div className="login my-4" style={style1}>
                 <form onSubmit={loginSubmit}>
