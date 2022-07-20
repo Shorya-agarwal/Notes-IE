@@ -4,9 +4,9 @@
 node_modules
 # testing
 /coverage
-.env
+# .env
 # production
 
 # misc
 .DS_Store
-.env.local
+# .env.local
